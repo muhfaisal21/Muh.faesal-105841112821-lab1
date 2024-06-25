@@ -1,9 +1,9 @@
-import { Text, View, Image, ScrollView} from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View, Image, ScrollView } from "react-native";
+import React from "react";
 
 const ButtonComponent = ({ title, color}) => {
     return (
-        <View style={{ marginHorizontal: 10}}>
+        <View Style={{ marginHorizontal: 10}}>
             <Text style={{
                 width: 100,
                 height: 50,
@@ -15,6 +15,7 @@ const ButtonComponent = ({ title, color}) => {
                 borderRadius: 10,
             }}>{title}</Text>
         </View>
-    )
-}
-export default ButtonComponent
+      )
+    }
+ 
+    export default ButtonComponent;
